@@ -1,1 +1,116 @@
-/* место для вашего кода */
+.header {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    padding: 0;
+}
+
+.header__menu {
+}
+
+.header__links-list {
+    display: flex;
+    gap: 23px;
+    list-style: circle;
+}
+
+.header__links-list-item {}
+
+.header__link_active {
+    text-decoration: none;
+}
+
+.header__link {}
+
+.header__logo {
+    display: block;
+    width: 120px;
+}
+
+.header__logo-image {
+    width: 100%;
+}
+
+.address {
+    font-family: Raleway;
+    font-style: Regular;
+    font-size: 18px;
+    max-width: 240px;
+    justify-self: end;
+}
+.header__address {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    }
+
+.cover {
+    position: relative;
+    padding: 165px 50px 50px;
+    background-image: url(../images/cover.jpg);
+    background-position: center;
+    background-size: cover;
+    }
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgb(0 0 0/0.6);
+}
+
+
+ .cover__title {
+        width: 115%;
+        color: rgb(255, 255, 255);
+        font-family: Raleway;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 100px;
+        display:flex;
+        flex-direction: column;
+        gap: 15px;
+             
+    }
+
+.aligned-text {
+        display: block;
+    }
+
+.aligned-text_left {
+        text-align: left;
+    }
+
+    .aligned-text_center {
+        text-align: center;
+    }
+
+    .aligned-text_right {
+        text-align: right;
+    }
+
+    .cover__description-text {
+      color: rgb(255, 255, 255);    
+    }
+
+    .lots {
+        padding: 180px 24px 20px;
+    }
+
+    .lots_title {}
+
+    .lot_title {}
+
+    .lot_text {}
+
+    .cover_more {}
+
+    .about {
+        padding: 120px 24px 180px;
+    }
+
+    .about_title {}
+
+    .about_text {}
+
+    .footer_links {}
+    
